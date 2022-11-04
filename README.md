@@ -8,3 +8,4 @@
 | Git-Flow    | [Link](./docs/git_flow.md)    |
 | GitOps      | [Link](./docs/GitOps.md)      |
 | Central-Repository-Workflow | [Link](./docs/central_repository_workflow.md) |
+| Forking-Flow | [Link](./docs/forking_flow.md) |
