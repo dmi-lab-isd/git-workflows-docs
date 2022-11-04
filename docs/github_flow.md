@@ -1,6 +1,6 @@
 # GitHub Flow
 
-<center><img src="../.github/assets/github_flow.jpeg" width=70%></center>
+<p align="center"><img src="../.github/assets/github_flow.jpeg" width=70%></p>
 
 ## Description
 
