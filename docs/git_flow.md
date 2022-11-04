@@ -1,4 +1,7 @@
-Gitflow è un flusso di lavoro Git legacy che in origine ha rappresentato una strategia innovativa e dirompente di gestione dei branch Git.
-La popolarità di Gitflow è diminuita a favore dei flussi di lavoro basati su trunk, che ora sono considerati come best practice dello sviluppo continuo di software moderno, e delle pratiche DevOps.
-Inoltre, Gitflow può essere difficile da usare con CI/CD.
-Questo post descrive nei dettagli la storia di Gitflow.
+# Gitflow Workflow
+Gitflow is a legacy Git workflow that was originally a disruptive and novel strategy for managing Git branches. Gitflow has fallen in popularity in favor of trunk-based workflows, which are now considered best practices for modern continuous software development and DevOps practices. Gitflow also can be challenging to use with CI/CD. This post details Gitflow for historical purposes.
+
+## What is Gitflow?
+Gitflow is an alternative Git branching model that involves the use of feature branches and multiple primary branches. It was first published and made popular by Vincent Driessen at nvie. Compared to trunk-based development, Gitflow has numerous, longer-lived branches and larger commits. Under this model, developers create a feature branch and delay merging it to the main trunk branch until the feature is complete. These long-lived feature branches require more collaboration to merge and have a higher risk of deviating from the trunk branch. They can also introduce conflicting updates.
+
+Gitflow can be used for projects that have a scheduled release cycle and for the DevOps best practice of continuous delivery. This workflow doesn’t add any new concepts or commands beyond what’s required for the Feature Branch Workflow. Instead, it assigns very specific roles to different branches and defines how and when they should interact. In addition to feature branches, it uses individual branches for preparing, maintaining, and recording releases. Of course, you also get to leverage all the benefits of the Feature Branch Workflow: pull requests, isolated experiments, and more efficient collaboration.
