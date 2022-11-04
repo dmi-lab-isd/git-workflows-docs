@@ -1,3 +1,3 @@
 # git-workflows-docs
 
-- [GitLab_flow.md](GitLab flow)
+- [GitLab Flow](./gitlab_flow.md)
